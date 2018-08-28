@@ -2,11 +2,6 @@ package cn.com.bestoyc.test;
 
 import cn.com.bestoyc.dao.UserBaseDao;
 import cn.com.bestoyc.entity.User;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.hibernate.cfg.AnnotationConfiguration;
-import org.junit.jupiter.api.Test;
 
 /**
  * @author oyc

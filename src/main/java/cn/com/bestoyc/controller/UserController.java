@@ -2,6 +2,7 @@ package cn.com.bestoyc.controller;
 
 import cn.com.bestoyc.dao.UserBaseDao;
 import cn.com.bestoyc.entity.User;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -17,6 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 @RequestMapping("/user")
 public class UserController {
+
     @RequestMapping("getUserName")
     public String getUserName(HttpServletRequest request , HttpServletResponse response) throws Exception{
         System.out.println("getUserName");

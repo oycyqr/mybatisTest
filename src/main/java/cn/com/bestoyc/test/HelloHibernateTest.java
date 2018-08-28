@@ -1,18 +1,9 @@
 package cn.com.bestoyc.test;
 
-import cn.com.bestoyc.dao.UserDao;
 import cn.com.bestoyc.entity.User;
-import org.apache.ibatis.session.Configuration;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.AnnotationConfiguration;
-import org.hibernate.metamodel.MetadataSources;
-
-import java.io.InputStream;
 
 /**
  * @author oyc

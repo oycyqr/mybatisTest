@@ -1,7 +1,5 @@
 package cn.com.bestoyc.test;
 
-import cn.com.bestoyc.dao.UserDao;
-
 /**
  * @author oyc
  * @Title:
